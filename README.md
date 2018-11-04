@@ -23,13 +23,13 @@
     /dataset        处理后数据目录
 
 ### 配置文件说明：
-RefPath:            训练集目录，要求训练目录下包含train.txt
-TestPath:           测试集目录
-Task:               1为识别任务，2为挖掘任务
-validation:         是否训练时验证，复现结果的话不用更改
-pretrain:           是否使用训练好的模型，为True时使用模型文件进行预测，为False时重新训练网络
-ModelPath_type1:    当pretrain=True时，需设置模型1的路径
-ModelPath_type2:    当pretrain=True时，需设置模型2的路径
+    RefPath:            训练集目录，要求训练目录下包含train.txt
+    TestPath:           测试集目录
+    Task:               1为识别任务，2为挖掘任务
+    validation:         是否训练时验证，复现结果的话不用更改
+    pretrain:           是否使用训练好的模型，为True时使用模型文件进行预测，为False时重新训练网络
+    ModelPath_type1:    当pretrain=True时，需设置模型1的路径
+    ModelPath_type2:    当pretrain=True时，需设置模型2的路径
 
 ## 运行：
 设置好配置文件后，运行python main.py
